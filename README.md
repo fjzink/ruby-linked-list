@@ -6,12 +6,12 @@ The `Node` class models a single node in a linked list. The class makes of use t
 
 The `value` instance variable simply stores the value of the current node of the linked list. 
 
-The `next` instance variable stores a reference to the next node in the linked list. This allows the object's instance methods to to traverse the list, moving from one node to the next.
+The `next` instance variable stores a reference to the next node in the linked list. This allows the object's instance methods to traverse the list, moving from one node to the next.
 
-The two attribute methods at the top of the class are Ruby shorthand methods for creating getter and setter methods for the instance variables. The `attr_reader` method creates a getter method for the value instace variable which allows the user to retrive the value of the node. The `attr_accessor` method creates both a getter and a setter method for the `next` instance variable which allows the user to both retrieve and set a new value for the `next` instance variable.
+The two attribute methods at the top of the class are Ruby shorthand methods for creating getter and setter methods for the instance variables. The `attr_reader` method creates a getter method for the `value` instance variable which allows the user to retrieve the value of the node. The `attr_accessor` method creates both a getter and a setter method for the `next` instance variable which allows the user to both retrieve and set a new value for the `next` instance variable.
 
 ## LinkedList Class
-The `LinkedList` class models the linked list by storing a reference to the head of the list , and providing instance methods to interact with the list.
+The `LinkedList` class models the linked list by storing a reference to the head of the list, and providing instance methods to interact with the list.
 
 The `@head` instance variable stores a reference to the head (first) node in the list. The instance methods use the `@head` instance variable to traverse the list by jumping from node to node using each node's `next` instance variable pointing to the next node in the list as described above.
 
